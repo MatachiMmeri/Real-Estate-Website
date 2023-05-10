@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  line-height: 2rem;
+}
+/* Navigation Bar styles */
+.nav {
+  display: inline-flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 4% 0px 4%;
+}
+
+/*.navigation-links {
+}*/
+
+.navbar {
+  list-style: none;
+  display: inline;
+  margin-right: 50px;
+}
+.logo-container {
+  padding: 4% 0px;
+}
+.logo {
+  width: 200px;
+  height: 200px;
+}
+.navigation {
+  display: inline;
+  margin-left: 30px;
+  float: left;
+}
+#navigation {
+  float: right;
+}
+
+/* Main Bodies Code */
+.main-body{
+  /* border: 5px red; 
+  border-style: solid;*/
+  height: 100rem;
+}
+
+main {
+  padding: 0px 4% 0px 4%;
+}
+
+#our {
+  position: relative;
+  top: 3em;
+  right: 32em;
+}
+
+#properties {
+  position: relative;
+  top: 3em;
+  right: 10.5em;
+}
+
+
+.row {
+  display: flex;
+  align-items: center;
+  /*border: 5px rgb(81, 0, 255);
+  border-style: solid;*/
+}
+
+.column {
+  /*border: 5px rgb(255, 234, 0);
+  border-style: solid;*/
+  flex: 1;
+}
+/* Introduction style */
+.title {
+  font-size: 5rem;
+  width: 75%;
+}
+
+.intro-text {
+  width: 70%;
+}
+
+/* Search Properties */
+.searchProperties {
+  position: relative;
+  margin-top: 7rem;
+}
+
+.searchForProperties {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 4.5px;
+  padding-right: 60px;
+  width: 95%;
+
+}
+
+/*.searchButton {
+  padding: 8px;
+}*/
+
+ #selectCountry {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 2px;
+  padding-right: 20em;
+  width: 95%;
+}
+
+#selectSector {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 2px;
+  padding-right: 20em;
+  width: 95%;
+}
+/* Image Catalog style */
+.image-catalog{
+  width: 10rem;
+  height: 20rem;
+  display: block;
+  width: 95%;
+  margin-top: 5rem;
+}
+
+.image-catalog-main-text{
+  margin-top: 3rem;
+}
+.image-catalog-text{
+  margin-left: 5px;
+  margin-right: 20px;
+  padding-left: 5px;
+  width: 75%;
+}

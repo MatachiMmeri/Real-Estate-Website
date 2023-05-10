@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real Estaste</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav">
+      <div class="logo-container">
+        <img class="logo" src="Images/eLogo.png" alt="logo" />
+      </div>
+      <div class="navigation-links">
+        <ul class="navbar">
+          <li class="navigation">About Us</li>
+          <li class="navigation">Portfolio</li>
+          <li class="navigation">Sustainability</li>
+          <li class="navigation">Investor home</li>
+          <li class="navigation">News</li>
+          <li class="navigation">Location</li>
+          <li class="navigation">EN</li>
+        </ul>
+        <i id="navigation" class="fa fa-search"></i>
+      </div>
+    </nav>
+<!-- Main Body -->
+    <main class="main-body">
+    <!-- Introduction to the page -->
+        <div class="row">
+            <div class="column">
+                <h1 class="title">Our Properties</h1>
+            </div>
+            <div class="column">
+                <p class="intro-text">Our services is active across countries in Africa: Nigeria, Ethiopia, Ghana, Egypt. Explore our Portfolio or filter our properties based on location or sector.</p>
+            </div>
+        </div>
+        <!-- Search Properties -->
+        <form class="searchProperties row" action="#">
+            <div class="column">
+                <input class="searchForProperties" type="text" placeholder="search for properties" name="">
+            </div>
+            <div class="column">
+                <select name="Country" id="selectCountry" placeholder="Country">
+                    <option value="Country">Country</option>
+                    <option value="Nigeria">Nigeria</option>
+                    <option value="Ghana">Ghana</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Ethiopia">Ethiopia</option>
+                </select>
+            </div>
+            <div class="column">
+                <select name="sector" id="selectSector" placeholder="sector">
+                    <option value="Sector">sector</option>
+                </select>
+            </div>
+        </form>   
+
+        <!-- First Property Listing -->
+        <div class="row">
+                <div class="column">
+                    <img class="image-catalog" src="/Images/buildingOne.avif" alt="First building">
+                      <h3 class="image-catalog-main-text" >Building</h3> 
+                    <div class="row">
+                              <i class="fa-solid fa-location-dot"></i>
+                              <p class="image-catalog-text">Lagos, Nigeria</p> 
+                            <i class="fa-regular fa-building"></i> 
+                            <p class="image-catalog-text">Office</p>
+                      </div>
+                </div>
+                <div class="column">
+                    <img class="image-catalog" src="/Images/buildingTwo.avif" alt="Second building">
+                    <h3 class="image-catalog-main-text" >Building</h3> 
+                    <div class="row">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="image-catalog-text">Lagos, Nigeria</p> 
+                      <i class="fa-regular fa-building"></i> 
+                      <p class="image-catalog-text">Office</p>
+                </div>
+                </div>
+                <div class="column">
+                    <img class="image-catalog" src="/Images/buildingThree.avif" alt="Third building">
+                    <h3 class="image-catalog-main-text" >Building</h3> 
+                    <div class="row">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="image-catalog-text">Lagos, Nigeria</p> 
+                      <i class="fa-regular fa-building"></i> 
+                      <p class="image-catalog-text">Office</p>
+                    </div>
+                </div>
+        </div>
+        <!-- Second Property Listing -->
+        <div class="row">
+            <div class="column">
+                <img class="image-catalog" src="/Images/buildingFour.png" alt="Forth building">
+                  <h3 class="image-catalog-main-text" >Building</h3> 
+                <div class="row">
+                          <i class="fa-solid fa-location-dot"></i>
+                          <p class="image-catalog-text">Lagos, Nigeria</p> 
+                        <i class="fa-regular fa-building"></i> 
+                        <p class="image-catalog-text">Office</p>
+                  </div>
+            </div>
+            <div class="column">
+                <img class="image-catalog" src="/Images/buildingFive.avif" alt="Fifth building">
+                <h3 class="image-catalog-main-text" >Building</h3> 
+                <div class="row">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="image-catalog-text">Lagos, Nigeria</p> 
+                  <i class="fa-regular fa-building"></i> 
+                  <p class="image-catalog-text">Office</p>
+            </div>
+            </div>
+            <div class="column">
+                <img class="image-catalog" src="/Images/buildingSix.avif" alt="Sixth building">
+                <h3 class="image-catalog-main-text" >Building</h3> 
+                <div class="row">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="image-catalog-text">Lagos, Nigeria</p> 
+                  <i class="fa-regular fa-building"></i> 
+                  <p class="image-catalog-text">Office</p>
+                </div>
+            </div>
+    </div>
+    <!-- End of property listing -->
+    </main>
+  </body>
+</html>
